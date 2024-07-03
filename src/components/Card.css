@@ -1,0 +1,35 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 50vh;
+    height: 120px;
+    border-radius: 5px;
+    background-color: white;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    .card {
+      background-color: #D7C7F4;
+    }
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.openSans{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.ubuntu{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
